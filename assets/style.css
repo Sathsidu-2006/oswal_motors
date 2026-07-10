@@ -1,0 +1,48 @@
+.about-hero {
+    background: url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1920') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.about-img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    object-fit: cover;
+    height: 100%;
+    min-height: 400px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.value-card {
+    background: white;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-bottom: 4px solid #FF6B00;
+}
+
+.value-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.info-content{
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgba(247, 243, 243, 0.659);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
