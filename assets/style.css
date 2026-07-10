@@ -46,3 +46,106 @@
     background-color:  rgba(247, 243, 243, 0.659);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
+
+/*contact page */
+
+.contact-hero {
+    background: url('https://images.unsplash.com/photo-1596526131083-e8c633c948d2?auto=format&fit=crop&q=80&w=1920') no-repeat center center/cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 50px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.contact-info-panel {
+    background-color: #0A2540;
+    color: white;
+    padding: 50px 40px;
+}
+
+.contact-info-panel .section-title2 {
+    color: #FF6B00;
+    margin-bottom: 15px;
+}
+
+.contact-info-panel > p {
+    color: #CCD6F6;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.contact-detail-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 20px;
+    background: rgba(255, 107, 0, 0.1);
+    padding: 15px;
+    border-radius: 50%;
+    color: #FF6B00;
+}
+
+.contact-detail-box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.contact-detail-box p {
+    color: #CCD6F6;
+    line-height: 1.5;
+}
+
+.business-hours {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.business-hours h3 {
+    color: #FF6B00;
+    margin-bottom: 15px;
+}
+
+.business-hours p {
+    color: #CCD6F6;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form-panel {
+    padding: 50px 40px;
+}
+
+.contact-form-panel .section-title2 {
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #0A2540;
+    font-weight: bold;
+    font-size: 14px;
+}
