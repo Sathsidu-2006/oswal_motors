@@ -93,7 +93,7 @@ nav ul li a{
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.3s, transform 0.2s;
+    
     text-align: center;
     border: none;
     cursor: pointer;
@@ -236,5 +236,38 @@ nav ul li a{
 
 .btn2:hover{
     background-color:  #063c73;
+}
+.stats-section {
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.stat-item h2 {
+    font-size: 42px;
+    color: var(--accent-orange);
+}
+.info-split {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 40px;
+    align-items: center;
+}
+
+.info-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: var(--primary-blue);
+}
+
+.info-content p {
+    margin-bottom: 25px;
+    color: #555;
 }
 
