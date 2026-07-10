@@ -60,7 +60,7 @@ nav ul li a{
     height: 80vh;
     display: flex;
     align-items: center;
-    color: var(--text-light);
+    color: #FFFFFF;
     text-align: center;
 }
 .hero-content {
