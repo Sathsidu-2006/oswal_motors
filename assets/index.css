@@ -216,4 +216,25 @@ nav ul li a{
     color: #FF6B00;
     margin-bottom: 15px;
 }
+.section-title2{
+    color: black;
+}
+
+.btn2{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color:  #0A2540;
+}
+
+.btn2:hover{
+    background-color:  #063c73;
+}
 
